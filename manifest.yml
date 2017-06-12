@@ -1,0 +1,9 @@
+applications:
+- name: Toolchain Demo
+  buildpack: sdk-for-nodejs
+  memory: 256M
+  instances: 1
+  host: toolchain-demo
+  domain: stage1.mybluemix.net
+  path: .
+  command: node index

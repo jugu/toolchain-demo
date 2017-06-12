@@ -1,0 +1,12 @@
+{
+  "name": "toolchain-demo",
+  "dependencies": {
+    "express": "*",
+    "nconf": "*",
+    "pug": "^2.0.0-rc.2",
+    "underscore": "*"
+  },
+  "scripts": {
+    "start": "node index"
+  }
+}
