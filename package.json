@@ -4,9 +4,12 @@
     "express": "*",
     "nconf": "*",
     "pug": "^2.0.0-rc.2",
-    "underscore": "*"
+    "underscore": "*",
+    "chai":"*",
+    "mocha":"*"
   },
   "scripts": {
-    "start": "node index"
+    "start": "node index",
+    "test": "mocha"
   }
 }
