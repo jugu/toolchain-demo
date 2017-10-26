@@ -1,12 +1,13 @@
 {
   "name": "toolchain-demo",
   "dependencies": {
+    "chai": "*",
     "express": "*",
+    "i18n": "^0.8.3",
+    "mocha": "*",
     "nconf": "*",
     "pug": "^2.0.0-rc.2",
-    "underscore": "*",
-    "chai":"*",
-    "mocha":"*"
+    "underscore": "*"
   },
   "scripts": {
     "start": "node index",

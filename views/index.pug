@@ -2,4 +2,11 @@ html
   head
     title= title
   body
+    //label(for="locale") selectlocale
+    //select(name="locale")
+    //  each val, index in locales
+    //    option= val
     h1= message
+    ul
+      each val, index in kvlist
+        li= val
